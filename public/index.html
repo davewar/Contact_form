@@ -1,0 +1,174 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Trade Apps Test</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+  <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+  <nav>
+     
+
+          <ul class="nav-links">
+            
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Price</a></li>
+              <li><a href="#">App</a></li>
+              <li><a href="#">Dashboard</a></li>
+              <button>Sign in</button>
+              
+          </ul>
+     
+  </nav>
+
+  
+
+  <section id="section-1">
+
+    
+
+            <div id="container-1">
+
+                <div id="title">
+                  <h1>Buy and sell cryptocurrency</h1>
+                </div>
+                
+                <div id="sub-title">
+                  <h3>Fast and secure way to purchase or exchange 150+ cryptocurrencies</h3>
+                </div>
+                
+                
+                <div id="button-container">
+                  <h5>Subscribe Now</h5>
+                  <button><i class="fa fa-arrow-right"></i></button>
+                </div>
+
+          </div>  
+
+              <div id="container-2">
+
+                        <div class="payment-item">
+                              <h4>Send</h4>
+                              <div class="type">
+                                <div class="ccy-box"><p>USD<p></div>
+                                <div class="ccy-box">0.0214 BTC</div>
+                            </div>
+                      </div>
+                        
+                      <div class="payment-item">
+                            <h4>Receive</h4>
+                            <div class="type">
+                                <div class="ccy-box">BTC</div>
+                                <div class="ccy-box">0.0214 BTC</div>                                        
+                            </div>
+                      </div> 
+
+                      <div class="type">
+                      <p>1USD ~ 0.000088 BTC<span> Expected rate</span></p>
+                      </div>
+                      
+
+                      <div class="type">
+                        
+                        <p id="fee">No Extra Fees</p>
+                      
+                      </div>
+                               
+                      
+                      <div class="type">
+                          <button id="btn">Buy Now</button>
+                      </div>
+
+
+            </div>
+    
+  </section>
+  
+  
+  <section id="section-2">
+      
+      <div id="question">
+        <h4>Ask Question</h3>
+        <h2>Let us hear from you directly!</h3>
+      </div>
+
+      <div id="contact-address">
+
+            <h2 class="item">Address</h2>
+
+            <div class="item">
+                <i class="fas fa-map-marker"></i><span>Dartford, Kent</span>
+            </div>
+
+            <div class="item">
+                <i class="fas fa-phone"></i><span>0203 633 1775</span>
+            </div>
+
+            <div class="item">
+              <i class="fas fa-envelope"></i><span>hello@example.com</span>
+            </div>
+       
+      
+      </div>
+
+      <div id="contact-form">
+        <!--  -->
+        <form class="form" >
+          <!-- <form class="form"  > -->
+              <div id="contact-details">
+                      <div id="item-one" class="form-control">
+                        <label for="fullname">Full name</label><br>
+                        <input type="text" id="fullname" name="fullname" onchange=cleanup(fullname) placeholder="Full name" value="" min="5" max="249" required>
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small></small>
+                      </div>
+                      
+                      <div id="item-two" class="form-control">
+                        <label for="email">Email</label><br>
+                        <input type="email" id="email" name="email" onchange=cleanup(email) placeholder="hello@domain.com" value="" required>
+                        <i class="fas fa-check-circle" ></i>
+                        <i class="fas fa-exclamation-circle bad"></i>
+                        <small></small>
+                      </div>
+              </div>
+             
+              <div class="form-control">
+                <textarea  id="text" name="text" rows="4" cols="30" value="" onchange=cleanup(text) placeholder="Tell us what we can help you with!"></textarea><br/>              
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small></small>
+              </div>
+             <button id="submit-btn" type="submit" >Send message</button>
+                 
+            
+
+          </form>
+
+          <div id=error></div>
+          <div id=success></div>
+      </div>
+
+
+  </section>
+
+
+  <script src="./main.js"></script>
+
+</body>
+
+</html>
